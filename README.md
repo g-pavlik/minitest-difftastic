@@ -60,6 +60,7 @@ gem install minitest-difftastic
 
 Minitest doesn't load plugin automatically, so you need to call 
 ```
+# (typically in test/test_helper.rb)
 # either
 Minitest.load :difftastic
 # or
